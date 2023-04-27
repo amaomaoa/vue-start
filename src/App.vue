@@ -1,22 +1,17 @@
 <template>
-  <div h-100 w-100 bg-red>hello</div>
+    <div h-100 w-100 bg-red flex justify-center items-center flex-col>
+        <SayHello c="#fff" v-model="count" name="Li Hua">
+            <template></template>
+        </SayHello>
+    </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="tsx">
+import { ref } from "vue";
+import { SayHello } from "~/components/SayHello";
+const count = ref(1);
+</script>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
+<style scoped lang="ts"></style>
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style scoped></style>

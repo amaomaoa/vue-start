@@ -3,6 +3,7 @@
         <SayHello c="#fff" v-model="count" name="Li Hua">
             <template></template>
         </SayHello>
+        <div class="carbon:airport-01"></div>
     </div>
 </template>
 

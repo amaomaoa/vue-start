@@ -15,6 +15,9 @@ dependencies:
     version: 3.2.47
 
 devDependencies:
+  '@iconify-json/carbon':
+    specifier: ^1.1.16
+    version: 1.1.16
   '@vitejs/plugin-vue':
     specifier: ^4.1.0
     version: 4.1.0(vite@4.2.1)(vue@3.2.47)
@@ -545,6 +548,12 @@ packages:
     os: [win32]
     requiresBuild: true
     optional: true
+
+  /@iconify-json/carbon@1.1.16:
+    resolution: {integrity: sha512-AD8bcnRSGA0WfcGEass2FbA0sagrUzrpFx5WchuDy3uf7yKBWumdypdQK121DH321fQDl5+zZQ26T6gC9knwUQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
